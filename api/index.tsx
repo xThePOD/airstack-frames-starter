@@ -7,6 +7,7 @@ export const app = new Frog({
   apiKey: process.env.AIRSTACK_API_KEY as string,
   assetsPath: "/",
   basePath: "/api",
+  title: "first frame"
 });
 
 app.frame("/", async (c) => {
